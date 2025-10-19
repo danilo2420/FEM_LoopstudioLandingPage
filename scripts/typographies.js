@@ -22,6 +22,14 @@ const typographiesArray = [
             "desktop": "tp1"
         }
     },
+    {
+        "element": ".header__menuItem",
+        "typographies": {
+            "mobile": "tp6",
+            "tablet": "tp6",
+            "desktop": "tp6"
+        }
+    },
 ]
 
 // Script

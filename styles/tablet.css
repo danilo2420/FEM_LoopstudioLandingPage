@@ -1,9 +1,5 @@
 
 @media (min-width: 750px) {
-    * {
-        color: red;
-    }
-
     header {
         padding-top: 64px;
         padding-left: 80px;

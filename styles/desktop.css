@@ -1,6 +1,28 @@
 
 @media (min-width: 1100px) {
-    * {
-        color: yellow;
+
+    header {
+        padding-top: 64px;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    .header__wrapper {
+        gap: 127px;
+    }
+
+    .header__burger {
+        display: none;
+    }
+
+    .header__menu {
+        display: flex;
+        gap: 32px;
+
+    }
+
+    .header__title {
+        padding: 42px 40px;
+        width: 650px;
     }
 }
