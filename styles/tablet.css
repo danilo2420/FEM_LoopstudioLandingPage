@@ -1,0 +1,28 @@
+
+@media (min-width: 750px) {
+    * {
+        color: red;
+    }
+
+    header {
+        padding-top: 64px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .header__wrapper {
+        gap: 130px;
+    }
+
+    .header__logo {
+        height: 32px;
+    }
+
+    .header__burger {
+        height: 21.3px;
+    }
+
+    .header__title {
+        padding: 40px;
+    }
+}

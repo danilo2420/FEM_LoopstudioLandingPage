@@ -9,19 +9,19 @@
 
 const versionMinWidth = {
     "mobile": 0,
-    "tablet": 600,
+    "tablet": 750,
     "desktop": 1100
 }
 
 const typographiesArray = [
     {
-        "element": ".testDiv",
+        "element": ".header__title",
         "typographies": {
-            "mobile": "tp1",
-            "tablet": "tp2",
-            "desktop": "tp3"
+            "mobile": "tp3",
+            "tablet": "tp1",
+            "desktop": "tp1"
         }
-    }
+    },
 ]
 
 // Script
