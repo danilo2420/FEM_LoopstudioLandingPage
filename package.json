@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "animejs": "^4.2.2",
+    "vite": "^7.1.10"
+  },
+  "scripts": {
+    "build": "vite build"
+  }
+}
