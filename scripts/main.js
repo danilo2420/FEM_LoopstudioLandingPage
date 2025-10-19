@@ -5,6 +5,6 @@ import '../styles/typographies.css';
 
 // Node modules
 import { animate } from "animejs";
+import './typographies.js';
 
 // Script
-console.log("Hello from main!");

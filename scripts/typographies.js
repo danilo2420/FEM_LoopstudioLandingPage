@@ -1,46 +1,35 @@
 // *** 
 // This script sets and modifies the typographies of the different elements
-// You have to define the fonts for the different elements in /data/typographies.json
-// This is a solution to the ugly bandaid that I used to use until now
+// You have to define the fonts for the different elements in the typographiesArray below
+// You also have to set the widths that define the different device versions
 // *** 
 
-let typographiesArray = null;
+
+// Set the value for these variables
+
 const versionMinWidth = {
     "mobile": 0,
     "tablet": 600,
     "desktop": 1100
 }
+
+const typographiesArray = [
+    {
+        "element": ".testDiv",
+        "typographies": {
+            "mobile": "tp1",
+            "tablet": "tp2",
+            "desktop": "tp3"
+        }
+    }
+]
+
+// Script
 let currVersion = "";
 
 function typographiesMain() {
-
-    // Read json file
-    fetch('data/typographies.json') // reads it from index.html location
-        .then((response) => {
-            if (!response.ok) {
-                throw new Error('Error trying to fetch the typographies.json file');
-            }
-            return response.json();
-        }).then((data) => {
-            typographiesArray = data;
-
-            setTypographies();
-            setEventListeners_typographies();
-        }).catch((error) => {
-            console.error(error);
-        });
-}
-
-function setEventListeners_typographies() {
-    
-    // This might not be necessary because we call setTypographies when reloading
-    // window.onload = () => {
-    //     setTypographies();
-    // }
-
-    window.onresize = () => {
-        setTypographies();
-    }
+    setTypographies();
+    window.onresize = () => setTypographies();
 }
 
 // Functions
@@ -48,6 +37,7 @@ function setTypographies() {
     // Check what version is relevant now and whether it has changed
     const version = calculateVersion();
     if (version == "") return;
+    console.log("Hello");
 
     // Go through all the elements and change their typography
     for (let elementObject of typographiesArray) {
@@ -86,6 +76,5 @@ function setElementTypography(elementObject, element, version) {
     // Add new typography as a function of the version
     element.classList.add(elementObject.typographies[version]);
 }
-
 
 typographiesMain();
