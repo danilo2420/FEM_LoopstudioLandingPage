@@ -100,7 +100,6 @@ header {
 }
 
 .creationsSection__grid {
-    height: 100px;
     border: solid purple 2px;
     width: 100%;
 }
@@ -118,4 +117,55 @@ header {
 .creationsSection__grid {
     display: grid;
     grid-template-columns: 1fr;
+    row-gap: 24px;
+}
+
+.creationsSection__gridItem {
+    height: 120px;
+    position: relative;
+
+    border: solid blue 1px;
+    background-color: black;
+
+    background-size: cover;
+}
+
+.creationsSection__gridItem__text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: var(--white);
+}
+
+/* Note: these iamges have a gradient!! */
+.itemEarth {
+    background-image: url('../images/mobile/image-deep-earth.jpg');
+}
+
+.itemNightArcade {
+    background-image: url('../images/mobile/image-night-arcade.jpg');
+}
+
+.itemSoccer {
+    background-image: url('../images/mobile/image-soccer-team.jpg');
+}
+
+.itemTheGrid {
+    background-image: url('../images/mobile/image-grid.jpg');
+}
+
+.itemFromUp {
+    background-image: url('../images/mobile/image-from-above.jpg');
+}
+
+.itemPocket {
+    background-image: url('../images/mobile/image-pocket-borealis.jpg');
+}
+
+.itemCuriosity {
+    background-image: url('../images/mobile/image-curiosity.jpg');
+}
+
+.itemFisheye {
+    background-image: url('../images/mobile/image-fisheye.jpg');
 }

@@ -61,6 +61,14 @@ const typographiesArray = [
             "tablet": "tp7",
             "desktop": "tp7"
         }
+    },
+    {
+        "element": ".creationsSection__gridItem__text",
+        "typographies": {
+            "mobile": "tp5",
+            "tablet": "tp5",
+            "desktop": "tp4"
+        }
     }
 ]
 
