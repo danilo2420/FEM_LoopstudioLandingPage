@@ -9,3 +9,4 @@ import { animate } from "animejs";
 import './typographies.js';
 
 // Script
+

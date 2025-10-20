@@ -45,7 +45,6 @@ function setTypographies() {
     // Check what version is relevant now and whether it has changed
     const version = calculateVersion();
     if (version == "") return;
-    console.log("Hello");
 
     // Go through all the elements and change their typography
     for (let elementObject of typographiesArray) {
