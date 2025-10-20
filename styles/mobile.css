@@ -71,3 +71,51 @@ header {
 
     text-align: center;
 }
+
+/* CREATIONS SECTION */
+.creationsSection {
+    border: solid red 2px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 98px;
+
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creationsSection__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 32px;
+}
+
+.creationsSection__top__button {
+    display: none;
+}
+
+.creationsSection__grid {
+    height: 100px;
+    border: solid purple 2px;
+    width: 100%;
+}
+
+.creationsSection__button {
+    margin-top: 32px;
+}
+
+.btnSeeAll {
+    padding: 13px 40.5px;
+    border: solid var(--black) 1px;
+    text-transform: uppercase;
+}
+
+.creationsSection__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
