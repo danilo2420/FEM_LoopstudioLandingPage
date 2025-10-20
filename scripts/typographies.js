@@ -30,6 +30,22 @@ const typographiesArray = [
             "desktop": "tp6"
         }
     },
+    {
+        "element": ".infoSection__content__title",
+        "typographies": {
+            "mobile": "tp4",
+            "tablet": "tp2",
+            "desktop": "tp2"
+        }
+    },
+    {
+        "element": ".infoSection__content__text",
+        "typographies": {
+            "mobile": "tp6",
+            "tablet": "tp6",
+            "desktop": "tp6"
+        }
+    },
 ]
 
 // Script

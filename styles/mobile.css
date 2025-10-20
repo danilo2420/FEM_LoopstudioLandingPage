@@ -1,4 +1,5 @@
 
+/* HEADER */
 header {
     height: 650px;
 
@@ -39,4 +40,32 @@ header {
     padding: 18px 25px;
 
     border: solid var(--white) 2px;
+}
+
+/* INFO SECTION*/
+.infoSection {
+    padding: 96px 24px;
+
+    color: var(--black);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.infoSection__image {
+    width: 100%;
+}
+
+.infoSection__content {
+    padding-left: 24px;
+    padding-right: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    text-align: center;
 }
