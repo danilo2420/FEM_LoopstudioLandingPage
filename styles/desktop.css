@@ -1,6 +1,6 @@
 
 @media (min-width: 1100px) {
-
+    /* HEADER */
     header {
         background-image: url('../images/desktop/image-hero.jpg');
 
@@ -26,5 +26,25 @@
     .header__title {
         padding: 42px 40px;
         width: 650px;
+    }
+
+    /* INFO SECTION */
+    .infoSection {
+        padding: 160px 165px;
+        display: block;
+
+        position: relative;
+        box-sizing: content-box;
+    }
+
+    .infoSection__image {
+        width: 70%;
+        height: auto;
+    }
+
+    .infoSection__content {
+        position: absolute;
+        top: 0px;
+        left: 0px;
     }
 }
