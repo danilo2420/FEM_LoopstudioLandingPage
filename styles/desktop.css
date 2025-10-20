@@ -30,21 +30,45 @@
 
     /* INFO SECTION */
     .infoSection {
-        padding: 160px 165px;
+        padding: 160px 130px;
         display: block;
+    }
 
+    .infoSection__wrapper {
+        display: block;
         position: relative;
-        box-sizing: content-box;
     }
 
     .infoSection__image {
-        width: 70%;
+        width: 80%;
         height: auto;
     }
 
     .infoSection__content {
         position: absolute;
-        top: 0px;
-        left: 0px;
+        bottom: 0px;
+        right: 0px;
+
+        padding-top: 50px;
+        padding-left: 50px;
+        min-height: 50%;
+        width: 60%;
+
+        background-color: var(--white);
+        text-align: left;
+    }
+}
+
+@media (min-width: 1300px) {
+    /* INFO SECTION */
+    .infoSection__image {
+        width: 70%;
+    }
+
+    .infoSection__content {
+        padding-top: 96px;
+        padding-left: 96px;
+        min-height: 60%;
+        width: 50%;
     }
 }

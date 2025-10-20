@@ -27,7 +27,7 @@
     .infoSection {
         padding: 96px 80px;
     }
-
+    
     .infoSection__image {
         height: 45vw;
         content: url('../images/desktop/image-interactive.jpg');

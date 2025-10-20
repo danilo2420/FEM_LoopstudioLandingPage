@@ -47,7 +47,9 @@ header {
     padding: 96px 24px;
 
     color: var(--black);
+}
 
+.infoSection__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
