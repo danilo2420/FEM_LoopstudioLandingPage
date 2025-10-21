@@ -36,8 +36,17 @@
     }
 
     /* CREATIONS SECTION */
+    
+
     .creationsSection__gridItem__text {
         bottom: 20px;
         left: 38px;
+    }
+}
+
+@media (min-width: 800px) {
+    .creationsSection {
+        padding-left: 90px;
+        padding-right: 90px; 
     }
 }

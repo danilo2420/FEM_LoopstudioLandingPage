@@ -57,6 +57,74 @@
         background-color: var(--white);
         text-align: left;
     }
+
+    /* CREATIONS SECTION */
+    .creationsSection {
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 182px;
+    }
+
+    .creationsSection__top {
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+
+    .creationsSection__top__button {
+        display: block;
+    }
+
+    .creationsSection__grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 32px;
+    }
+
+    .creationsSection__gridItem {
+        height: 450px;
+    }
+
+    .creationsSection__gridItem__text {
+        bottom: 32px;
+        left: 40px;
+    }
+
+    .itemEarth {
+        background-image: url('../images/desktop/image-deep-earth.jpg');
+    }
+
+    .itemNightArcade {
+        background-image: url('../images/desktop/image-night-arcade.jpg');
+    }
+
+    .itemSoccer {
+        background-image: url('../images/desktop/image-soccer-team.jpg');
+    }
+
+    .itemTheGrid {
+        background-image: url('../images/desktop/image-grid.jpg');
+    }
+
+    .itemFromUp {
+        background-image: url('../images/desktop/image-from-above.jpg');
+    }
+
+    .itemPocket {
+        background-image: url('../images/desktop/image-pocket-borealis.jpg');
+    }
+
+    .itemCuriosity {
+        background-image: url('../images/desktop/image-curiosity.jpg');
+    }
+
+    .itemFisheye {
+        background-image: url('../images/desktop/image-fisheye.jpg');
+    }
+
+    .creationsSection__button {
+        display: none;
+    }
 }
 
 @media (min-width: 1300px) {
@@ -71,4 +139,6 @@
         min-height: 60%;
         width: 50%;
     }
+
+    
 }

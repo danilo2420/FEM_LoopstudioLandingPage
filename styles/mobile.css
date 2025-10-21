@@ -74,8 +74,6 @@ header {
 
 /* CREATIONS SECTION */
 .creationsSection {
-    border: solid red 2px;
-
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 86px;
@@ -100,8 +98,10 @@ header {
 }
 
 .creationsSection__grid {
-    border: solid purple 2px;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 24px;
 }
 
 .creationsSection__button {
@@ -114,17 +114,9 @@ header {
     text-transform: uppercase;
 }
 
-.creationsSection__grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 24px;
-}
-
 .creationsSection__gridItem {
     height: 120px;
     position: relative;
-
-    border: solid blue 1px;
     background-color: black;
 
     background-size: cover;
