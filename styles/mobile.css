@@ -221,3 +221,38 @@ footer {
     color: gray;
     text-align: center;
 }
+
+/* MENU */
+.menu {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+
+    padding: 40px 24px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+}
+
+.menu__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__icon {
+    height: 24px;
+}
+
+.menu__exit {
+    height: 18.5px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

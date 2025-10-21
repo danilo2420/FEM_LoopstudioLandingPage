@@ -85,6 +85,14 @@ const typographiesArray = [
             "tablet": "tp6",
             "desktop": "tp6"
         }
+    },
+    {
+        "element": ".menu__listItem",
+        "typographies": {
+            "mobile": "tp5",
+            "tablet": "tp5",
+            "desktop": "tp5"
+        }
     }
 ]
 

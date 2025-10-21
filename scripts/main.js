@@ -12,3 +12,9 @@ import './typographies.js';
 
 let menuOpen = false;
 
+const burgerMenu = document.querySelector('.header__burger');
+burgerMenu.onclick = () => {
+    console.log("Burger menu clicked!");
+    
+    menuOpen = !menuOpen;
+}
