@@ -10,3 +10,5 @@ import './typographies.js';
 
 // Script
 
+let menuOpen = false;
+
