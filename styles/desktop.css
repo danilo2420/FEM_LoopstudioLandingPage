@@ -4,7 +4,9 @@
 @media (min-width: 1100px) {
     /* HEADER */
     header {
-        background-image: url('../images/desktop/image-hero.jpg');
+        background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+            url('../images/desktop/image-hero.jpg');
 
         padding-top: 64px;
         padding-left: 165px;
