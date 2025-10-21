@@ -125,6 +125,12 @@
     .creationsSection__button {
         display: none;
     }
+
+    footer {
+        padding: 45px 165px 32px 165px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width: 1300px) {
@@ -139,6 +145,4 @@
         min-height: 60%;
         width: 50%;
     }
-
-    
 }
