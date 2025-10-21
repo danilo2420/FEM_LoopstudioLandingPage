@@ -41,6 +41,19 @@
         left: 38px;
     }
 
+    /* MENU */
+    .menu {
+        padding: 64px 80px;
+    }
+
+    .menu__icon {
+        height: 32px;
+    }
+
+    .menu__exit {
+        height: 24px;
+    }
+
 }
 
 @media (min-width: 800px) {
