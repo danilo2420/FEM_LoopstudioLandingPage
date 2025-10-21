@@ -235,6 +235,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 160px;
+
+    display: none;
 }
 
 .menu__top {
