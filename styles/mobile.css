@@ -168,3 +168,56 @@ header {
 .itemFisheye {
     background-image: url('../images/mobile/image-fisheye.jpg');
 }
+
+/* FOOTER */
+footer {
+    padding: 56px;
+
+    background-color: var(--black);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer__top__image {
+    height: 24px;
+}
+
+.footer__top__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer__bottom__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer__bottom__icons > * {
+    width: 24px;
+}
+
+.footer__bottom__copyright {
+    color: gray;
+    text-align: center;
+}
