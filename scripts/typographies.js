@@ -93,8 +93,25 @@ const typographiesArray = [
             "tablet": "tp5",
             "desktop": "tp5"
         }
-    }
+    },
+    {
+        "element": ".popup__title",
+        "typographies": {
+            "mobile": "tp5",
+            "tablet": "tp5",
+            "desktop": "tp5"
+        }
+    },
+    {
+        "element": ".popup__content",
+        "typographies": {
+            "mobile": "tp6",
+            "tablet": "tp6",
+            "desktop": "tp6"
+        }
+    },
 ]
+
 
 // Script
 let currVersion = "";
