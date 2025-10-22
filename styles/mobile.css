@@ -202,6 +202,8 @@ footer {
 
 .footer__top__image {
     height: 24px;
+
+    cursor: pointer;
 }
 
 .footer__top__list {
@@ -210,6 +212,35 @@ footer {
     align-items: center;
     gap: 16px;
 }
+
+.footer__top__listItem {
+    position: relative;
+
+    cursor: pointer;
+}
+
+.footer__top__listItem:hover {
+    font-weight: 600;
+}
+
+.footer__top__listItem::before {
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    width: 0px;
+    transform: translate(-50%, -50%);
+    
+    height: 1.5px;
+    background-color: white;
+
+    transition: all 0.3s;
+}
+
+.footer__top__listItem:hover::before {
+    width: 30px;
+}
+
 
 .footer__bottom {
     display: flex;
@@ -227,12 +258,15 @@ footer {
 
 .footer__bottom__icons > * {
     width: 24px;
+    cursor: pointer;
 }
 
 .footer__bottom__copyright {
     color: gray;
     text-align: center;
 }
+
+
 
 /* MENU */
 .menu {
@@ -270,3 +304,4 @@ footer {
     flex-direction: column;
     gap: 24px;
 }
+
