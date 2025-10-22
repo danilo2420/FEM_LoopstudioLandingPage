@@ -115,6 +115,15 @@ header {
     padding: 13px 40.5px;
     border: solid var(--black) 1px;
     text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btnSeeAll:hover {
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .creationsSection__gridItem {

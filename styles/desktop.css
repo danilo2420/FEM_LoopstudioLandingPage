@@ -17,6 +17,10 @@
         gap: 127px;
     }
 
+    .header__logo {
+        cursor: pointer;
+    }
+
     .header__burger {
         display: none;
     }
@@ -30,6 +34,32 @@
     .header__title {
         padding: 42px 40px;
         width: 650px;
+    }
+
+    .header__menuItem {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .header__menuItem:hover {
+        font-weight: 600;
+    }
+
+    .header__menuItem::before {
+        content: "";
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 0px;
+        height: 1.5px;
+        background-color: white;
+
+        transition: 0.3s;
+    }
+
+    .header__menuItem:hover::before {
+        width: 30px;
     }
 
     /* INFO SECTION */
