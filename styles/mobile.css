@@ -132,6 +132,7 @@ header {
     background-color: black;
 
     background-size: cover;
+    cursor: pointer;
 }
 
 .creationsSection__gridItem__gradient {
@@ -139,6 +140,12 @@ header {
     width: 100%;
     height: 100%;
     background: linear-gradient(270deg, var(--gradient1), var(--gradient2));
+
+    transition: 0.3s;
+}
+
+.creationsSection__gridItem:hover .creationsSection__gridItem__gradient {
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .creationsSection__gridItem__text {
@@ -146,6 +153,12 @@ header {
     bottom: 20px;
     left: 20px;
     color: var(--white);
+
+    transition: all 0.3s;
+}
+
+.creationsSection__gridItem:hover > .creationsSection__gridItem__text {
+    color: var(--black);
 }
 
 /* Note: these iamges have a gradient!! */
