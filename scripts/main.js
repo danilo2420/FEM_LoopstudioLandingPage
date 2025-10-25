@@ -36,5 +36,6 @@ headerLogo.onclick = () => popup.openPopup(
     () => {
         alert("Deleting OS...");
         alert("Just kidding!");
+        popup.closePopup();
     }
 );
